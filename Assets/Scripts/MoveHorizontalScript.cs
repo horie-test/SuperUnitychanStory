@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class MoveFloorScript : MonoBehaviour
+public class MoveHorizontalScript : MonoBehaviour
 {
     int counter = 0;
     float move = 0.1f;

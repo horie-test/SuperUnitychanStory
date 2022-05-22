@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class TitleSceneScript : MonoBehaviour
 {
@@ -17,7 +18,7 @@ public class TitleSceneScript : MonoBehaviour
         if (Input.GetMouseButtonDown(0))
         {
             // シーンを遷移
-            //SceneManager.LoadScene("FirstScene");
+            SceneManager.LoadScene("FirstScene");
         }
     }
 }

@@ -1,10 +1,12 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using UnityEngine.SceneManagement;
 
-public class TitleScript : MonoBehaviour
+public class MoveVerticalScript : MonoBehaviour
 {
+    int counter = 0;
+    float move = 0.1f;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -14,11 +16,14 @@ public class TitleScript : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        // クリックした時
-        if (Input.GetMouseButtonDown(0))
+        Vector3 position = new Vector3(0, move, 0);
+        transform.Translate(position);
+        counter++;
+
+        if (counter == 300)
         {
-            // シーン遷移
-            SceneManager.LoadScene("FirstScene");
+            counter = 0;
+            move *= -1;
         }
     }
 }
