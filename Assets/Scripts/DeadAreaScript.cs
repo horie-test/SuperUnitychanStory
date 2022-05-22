@@ -4,24 +4,29 @@ using UnityEngine;
 
 public class DeadAreaScript : MonoBehaviour
 {
-    //地面に接触しているか否か
     bool ground;
-    public GameObject playerObj = GameObject.Find("unitychan");
+    public AudioClip deathVoice;
+    AudioSource audioSource;
+    GameObject player;
+    
 
     // Start is called before the first frame update
     void Start()
     {
-        // do nothing
+        player = GameObject.Find("unitychan");
+        audioSource = GetComponent<AudioSource>();
     }
 
     // Update is called once per frame
     void Update()
     {
+        System.Console.WriteLine("Update()");
         //地面に接触していると作動する
         if (ground)
         {
             // リスタート
-            playerObj.transform.position = new Vector3(0, 1, 0);
+            player.transform.position = new Vector3(0, 5, 0);
+            audioSource.PlayOneShot(deathVoice);
         }
     }
 
