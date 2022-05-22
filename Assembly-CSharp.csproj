@@ -104,6 +104,7 @@
     <Compile Include="Assets\Scripts\DeadAreaScript.cs" />
     <Compile Include="Assets\Scripts\MoveFloorScript.cs" />
     <Compile Include="Assets\Scripts\TitleSceneScript.cs" />
+    <Compile Include="Assets\Scripts\TitleScript.cs" />
     <Compile Include="Assets\UnityChan\Scripts\AutoBlink.cs" />
     <Compile Include="Assets\UnityChan\Scripts\CameraController.cs" />
     <Compile Include="Assets\UnityChan\Scripts\FaceUpdate.cs" />
