@@ -25,7 +25,7 @@ public class DeadAreaScript : MonoBehaviour
         if (ground)
         {
             // リスタート
-            player.transform.position = new Vector3(0, 5, 0);
+            player.transform.position = new Vector3(0, 2, 0);
             audioSource.PlayOneShot(deathVoice);
         }
     }
