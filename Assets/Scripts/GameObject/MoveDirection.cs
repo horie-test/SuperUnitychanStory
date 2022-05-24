@@ -2,14 +2,16 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class MoveDirectionScript : MonoBehaviour
+public class MoveDirection : MonoBehaviour
 {
     // 移動方向（x,y,z）いずれかをUIから指定
     public string dim = "";
-    // 移動区間をUIから指定
-    public int interval = 0;
+    // 移動秒数をUIから指定
+    public int timer = 0;
+    // 移動量をUIから指定
+    public float transition = 0f;
     int counter = 0;
-    float move = 0.1f; // 移動フレームは固定
+    
     Vector3 position;
 
     // Start is called before the first frame update
@@ -24,16 +26,16 @@ public class MoveDirectionScript : MonoBehaviour
         switch (dim)
         {
             case "x":
-                position = new Vector3(move, 0, 0);
+                position = new Vector3(transition, 0, 0);
                 break;
             case "y":
-                position = new Vector3(0, move, 0);
+                position = new Vector3(0, transition, 0);
                 break;
             case "z":
-                position = new Vector3(0, 0, move);
+                position = new Vector3(0, 0, transition);
                 break;
             default:
-                position = new Vector3(move, 0, 0);
+                position = new Vector3(transition, 0, 0);
                 break;
 
         }
@@ -41,10 +43,10 @@ public class MoveDirectionScript : MonoBehaviour
         transform.Translate(position);
         counter++;
 
-        if (counter == interval)
+        if (counter == timer)
         {
             counter = 0;
-            move *= -1;
+            transition *= -1;
         }
     }
 }

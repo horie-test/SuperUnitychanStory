@@ -376,8 +376,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7fa5fa06e66fe4c9ead523b206c7c92e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_Name: 
-  m_EditorClassIdentifier: 
+  dim: z
+  timer: 300
+  transition: 0.1
 --- !u!1 &1032550773
 GameObject:
   m_ObjectHideFlags: 0
@@ -585,8 +586,8 @@ GameObject:
   - component: {fileID: 1556655459}
   - component: {fileID: 1556655458}
   - component: {fileID: 1556655457}
-  - component: {fileID: 1556655461}
   - component: {fileID: 1556655462}
+  - component: {fileID: 1556655461}
   m_Layer: 0
   m_Name: DeadArea
   m_TagString: Untagged
@@ -676,7 +677,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 1556655456}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 09560a842e7a145e7b5dd87745351fa2, type: 3}
+  m_Script: {fileID: 11500000, guid: 927def8cc95134be9b286087431f13a3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   deathVoice: {fileID: 8300000, guid: 41b76e0e711aa4c63822bbd4e4ca4872, type: 3}
@@ -990,8 +991,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7fa5fa06e66fe4c9ead523b206c7c92e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_Name: 
-  m_EditorClassIdentifier: 
+  dim: y
+  timer: 300
+  transition: 0.1
 --- !u!65 &1805671565
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -1166,7 +1168,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 2108444259}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 49d95c0b1af7643ea88be889fae7342d, type: 3}
+  m_Script: {fileID: 11500000, guid: f5afdde418e734f22b0376c1ceda7224, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   currentStage: 1

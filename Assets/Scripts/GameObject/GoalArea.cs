@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
-public class GoalScript : MonoBehaviour
+public class GoalArea : MonoBehaviour
 {
     bool ground;
     // 現在のシーン層をGUI上で入力（デフォルトは0）
