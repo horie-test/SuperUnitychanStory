@@ -1557,7 +1557,7 @@ MonoBehaviour:
   forwardSpeed: 7
   backwardSpeed: 2
   rotateSpeed: 2
-  jumpPower: 15
+  jumpPower: 3
 --- !u!136 &2117524885
 CapsuleCollider:
   m_ObjectHideFlags: 0
