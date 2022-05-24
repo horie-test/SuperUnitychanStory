@@ -37,7 +37,6 @@ public class MoveDirection : MonoBehaviour
             default:
                 position = new Vector3(transition, 0, 0);
                 break;
-
         }
         
         transform.Translate(position);
