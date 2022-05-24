@@ -15,7 +15,7 @@ public class DebugFunc : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        // 同時押しで初期位置へリスポーン
+        // マウスクリックで初期位置へリスポーン
         if (Input.GetMouseButtonDown(0))
         {
             player.transform.position = new Vector3(0, 2, 0);
