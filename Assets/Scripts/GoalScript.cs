@@ -9,12 +9,14 @@ public class GoalScript : MonoBehaviour
     // 現在のシーン層をGUI上で入力（デフォルトは0）
     // 入力された数の次のシーンへ進める
     // 未入力（初期値）の場合タイトルに飛ばす
-    public int stage = 0;
+    public int currentStage = 0;
+    public AudioClip goalVoice;
+    AudioSource audioSource;
 
     // Start is called before the first frame update
     void Start()
     {
-        
+        audioSource = GetComponent<AudioSource>();
     }
 
     // Update is called once per frame
@@ -23,8 +25,9 @@ public class GoalScript : MonoBehaviour
         //地面に接触していると作動する
         if (ground)
         {
+            audioSource.PlayOneShot(goalVoice);
             // 次のシーンへ飛ぶ
-            switch(stage)
+            switch (currentStage)
             {
                 case 1:
                     SceneManager.LoadScene("SecondScene");
