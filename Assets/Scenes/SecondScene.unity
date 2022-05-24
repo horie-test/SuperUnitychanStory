@@ -141,11 +141,18 @@ MonoBehaviour:
   m_GameObject: {fileID: 336511406}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: b82d09e8dc44f412281b999bf758bf2c, type: 3}
+  m_Script: {fileID: 11500000, guid: 7fa5fa06e66fe4c9ead523b206c7c92e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Name: 
+  m_EditorClassIdentifier: 
   m_Name: 
   m_EditorClassIdentifier: 
   dim: x
   interval: 50
+  counter: 0
+  move: 0.1
+  position: {x: 0, y: 0, z: 0}
 --- !u!65 &336511408
 BoxCollider:
   m_ObjectHideFlags: 0

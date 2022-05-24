@@ -2,13 +2,13 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class DeadAreaScript : MonoBehaviour
+public class DeadArea : MonoBehaviour
 {
     bool ground;
     public AudioClip deathVoice;
     AudioSource audioSource;
     GameObject player;
-    
+
 
     // Start is called before the first frame update
     void Start()

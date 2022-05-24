@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class MoveHorizontalScript : MonoBehaviour
+public class MoveDirectionScript : MonoBehaviour
 {
     // 移動方向（x,y,z）いずれかをUIから指定
     public string dim = "";

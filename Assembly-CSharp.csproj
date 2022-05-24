@@ -101,10 +101,9 @@
     <Compile Include="Assets\NatureStarterKit2\Standard Assets\Effects\ImageEffects\Scripts\Twirl.cs" />
     <Compile Include="Assets\NatureStarterKit2\Standard Assets\Effects\ImageEffects\Scripts\VignetteAndChromaticAberration.cs" />
     <Compile Include="Assets\NatureStarterKit2\Standard Assets\Effects\ImageEffects\Scripts\Vortex.cs" />
-    <Compile Include="Assets\Scripts\GameObject\DeadAreaScript.cs" />
+    <Compile Include="Assets\Scripts\GameObject\DeadArea.cs" />
     <Compile Include="Assets\Scripts\GameObject\GoalScript.cs" />
-    <Compile Include="Assets\Scripts\GameObject\MoveHorizontalScript.cs" />
-    <Compile Include="Assets\Scripts\GameObject\MoveVerticalScript.cs" />
+    <Compile Include="Assets\Scripts\GameObject\MoveDirection.cs" />
     <Compile Include="Assets\Scripts\Scene\TitleSceneScript.cs" />
     <Compile Include="Assets\UnityChan\Scripts\AutoBlink.cs" />
     <Compile Include="Assets\UnityChan\Scripts\CameraController.cs" />

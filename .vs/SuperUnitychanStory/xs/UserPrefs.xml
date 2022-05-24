@@ -1,22 +1,14 @@
 ﻿<Properties StartupConfiguration="{08C45E4E-7D86-F264-0B8C-0983488055FF}|">
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/GameObject/DeadAreaScript.cs">
-    <Files>
-      <File FileName="Assets/Scripts/DeadAreaScript.cs" Line="7" Column="17" />
-      <File FileName="Assets/Scripts/TitleSceneScript.cs" Line="21" Column="13" />
-      <File FileName="Assets/MoveVerticalScript.cs" Line="9" Column="1" />
-      <File FileName="Assets/Scripts/MoveHorizontalScript.cs" Line="7" Column="5" />
-      <File FileName="Assets/GoalScript.cs" Line="8" Column="16" />
-    </Files>
+  <MonoDevelop.Ide.Workbench>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="SuperUnitychanStory" expanded="True">
             <Node name="Assets" expanded="True">
+              <Node name="resource" expanded="True" />
               <Node name="Scripts" expanded="True">
-                <Node name="GameObject" expanded="True">
-                  <Node name="DeadAreaScript.cs" selected="True" />
-                </Node>
-                <Node name="Scene" expanded="True" />
+                <Node name="GameObject" expanded="True" />
+                <Node name="Scene" selected="True" />
               </Node>
               <Node name="UnityChan" expanded="True">
                 <Node name="Scripts" expanded="True" />
